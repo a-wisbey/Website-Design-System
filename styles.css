@@ -106,10 +106,11 @@ div {
 
 .nunito {
     font-family: 'Nunito', 'sans-serif';
+    font-size: 18px;
 }
 
 .nunito .heading {
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: underline;
 }
 .nunito .bold {
@@ -136,19 +137,6 @@ div {
     font-style: italic;
 }
 
-/*
-
-<div class="nunito">
-                <p class="nunito">Nunito, sans-serif</p>
-                <p class="normal">The quick brown fox jumps over the lazy dog.</p>
-                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-                <p class="itallic">The quick brown fox jumps over the lazy dog.</p>
-            </div>
-            <div class="Open Sans, sans-serif">
-                <p class="open-sans">"Open Sans", sans-serif</p>
-                <p class="normal">The quick brown fox jumps over the lazy dog.</p>
-                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-                <p class="itallic">The quick brown fox jumps over the lazy dog.</p>
-            </div>
-        </div>
-*/
+p .p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
