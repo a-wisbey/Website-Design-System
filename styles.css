@@ -45,7 +45,7 @@ div {
     min-height: 100px;
 }
 
- /* font colours */
+ /* text colours */
 .font-container {
     border: 2px solid #a2a2a6;
     padding: 10px;
@@ -101,3 +101,54 @@ div {
     margin: 20px auto;
     min-height: 100px;
 }
+
+ /* fonts */
+
+.nunito {
+    font-family: 'Nunito', 'sans-serif';
+}
+
+.nunito .heading {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.nunito .bold {
+    font-weight: 700;
+}
+
+.nunito .itallic {
+    font-style: italic;
+}
+
+.os {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.os .heading {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.os .bold {
+    font-weight: 700;
+}
+
+.os .itallic {
+    font-style: italic;
+}
+
+/*
+
+<div class="nunito">
+                <p class="nunito">Nunito, sans-serif</p>
+                <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="itallic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="Open Sans, sans-serif">
+                <p class="open-sans">"Open Sans", sans-serif</p>
+                <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="itallic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+        </div>
+*/
